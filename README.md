@@ -47,3 +47,5 @@ and start drawing
   </Animated>
 </div>
 ```
+![Peek 2024-04-28 23-54](https://github.com/tncrazvan/svelte-animated-pixels/assets/6891346/6b83adba-1805-4c8f-9f1f-813707629550)
+
