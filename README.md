@@ -9,7 +9,11 @@ Install with:
 npm i -D svelte-animated-pixels
 ```
 
-and start drawing
+Then start drawing, the idea is pretty simple
+
+- `x` delimits a pixel to be drawn.
+- `.` delimits the background.
+- Any other character that's not `x` or `.` is safely ignored.
 
 ```svelte
 <style>
@@ -60,6 +64,8 @@ and start drawing
 
 ![Peek 2024-04-28 23-54](https://github.com/tncrazvan/svelte-animated-pixels/assets/6891346/6b83adba-1805-4c8f-9f1f-813707629550)
 
+> [!NOTE]
+> Once a frame has been drawn on a pixel map, all subsequent drawn frames MUST have the same shape, meaning both width and height MUST match.
 
 # Planned Features
 
