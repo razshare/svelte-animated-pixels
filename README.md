@@ -1,6 +1,6 @@
 # Svelte Animated Pixels
 
-This library provides an easy way to create pixelated canvas animations by just declaring maps of pixels a strings.
+This library provides an easy way to create pixelated canvas animations by just declaring maps of pixels as strings.
 
 
 Install with:
